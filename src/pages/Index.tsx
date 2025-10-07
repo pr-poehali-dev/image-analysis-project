@@ -116,36 +116,36 @@ const Index = () => {
 
       <section id="about" className="py-20 px-6 bg-card">
         <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-[1fr,400px] gap-12 items-start">
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/files/59f1f924-cf87-4da8-a9ac-6f55b46c99e2.png"
+                alt="Urban Acupunctures"
+                className="w-full h-auto"
+              />
+            </div>
             <div>
-              <h2 className="text-5xl font-bold mb-6">О студии</h2>
-              <p className="text-lg text-muted-foreground mb-4">
+              <h2 className="text-4xl font-bold mb-4">О студии</h2>
+              <p className="text-base text-muted-foreground mb-4">
                 NDA — архитектурная студия, специализирующаяся на создании современных пространств с использованием инновационных подходов и нейродизайна.
               </p>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-base text-muted-foreground mb-6">
                 Мы верим, что архитектура должна быть не только функциональной, но и вдохновляющей, создавая среду для развития и комфортной жизни.
               </p>
-              <div className="flex gap-4">
-                <div className="text-center">
-                  <div className="text-4xl font-bold mb-2">50+</div>
+              <div className="flex gap-6 mt-8">
+                <div>
+                  <div className="text-3xl font-bold mb-1">50+</div>
                   <div className="text-sm text-muted-foreground">Проектов</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold mb-2">15</div>
+                <div>
+                  <div className="text-3xl font-bold mb-1">15</div>
                   <div className="text-sm text-muted-foreground">Лет опыта</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold mb-2">20+</div>
+                <div>
+                  <div className="text-3xl font-bold mb-1">20+</div>
                   <div className="text-sm text-muted-foreground">Наград</div>
                 </div>
               </div>
-            </div>
-            <div>
-              <img 
-                src="https://cdn.poehali.dev/files/1c838278-c489-4f31-933a-49f97b99ead0.png"
-                alt="Urban Acupunctures"
-                className="w-full h-auto shadow-2xl"
-              />
             </div>
           </div>
         </div>
