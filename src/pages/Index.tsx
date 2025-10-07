@@ -98,7 +98,7 @@ const Index = () => {
         </nav>
       </header>
 
-      <section id="home" className="pt-32 pb-20 px-6">
+      <section id="home" className="pt-32 pb-20 px-6 bg-white">
         <div className="container mx-auto">
           <div className="flex flex-col items-center justify-center text-center min-h-[80vh]">
             <img 
