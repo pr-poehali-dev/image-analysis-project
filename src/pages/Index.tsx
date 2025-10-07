@@ -100,14 +100,13 @@ const Index = () => {
 
       <section id="home" className="pt-32 pb-20 px-6">
         <div className="container mx-auto">
-          <div className="max-w-4xl">
-            <h1 className="text-7xl md:text-9xl font-bold mb-6 tracking-tight">
-              NDA
-            </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-              Neuro.Design.Architecture
-            </p>
-            <p className="text-lg text-muted-foreground max-w-2xl">
+          <div className="flex flex-col items-center justify-center text-center min-h-[80vh]">
+            <img 
+              src="https://cdn.poehali.dev/files/14cd0145-4b4d-4c2e-aaa2-d5754a4e32ec.jpg"
+              alt="NDA - Neuro.Design.Architecture"
+              className="w-full max-w-2xl h-auto mb-12"
+            />
+            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
               Создаем современные архитектурные решения, которые меняют городское пространство и улучшают качество жизни
             </p>
           </div>
